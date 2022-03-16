@@ -1,0 +1,65 @@
+.tasklist {
+	margin: 0.5rem auto;
+}
+.tasklist__body {
+	height: 160px;
+}
+
+.tasklist__header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.task-search-bar {
+	height: 1.5rem;
+	padding-left: 0.3rem;
+	outline-style: none;
+	border: 1px solid rgb(197, 197, 197);
+	border-radius: 0.5rem;
+}
+
+.tasklist__header-right > button {
+	background-color: transparent;
+	border: 1px solid rgb(196, 195, 195);
+	border-radius: 0.2rem;
+	margin-right: 0.5rem;
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.tasklist__header-right > button:hover {
+	transform: scale(1.09);
+	cursor: pointer;
+}
+
+@media (max-width: 54rem) {
+	.tasklist__header-right > button > .MuiSvgIcon-root {
+		height: 1.2rem;
+		width: 1.2rem;
+	}
+	.tasklist__header-right > button {
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+	}
+
+	.task-search-bar {
+		width: 60%;
+	}
+
+	.tasklist__header {
+		justify-content: none;
+	}
+}
+.page-numbers {
+	list-style: none;
+	display: flex;
+  }
+  
+  .page-numbers > li {
+	margin-right: 0.3em;
+	color: blue;
+	user-select: none;
+	cursor: pointer;
+  }

@@ -1,0 +1,11 @@
+.todo-list{
+	margin: 0 auto;
+}
+
+.todo-list__header {
+	padding-left: 0.2rem;
+	background-color: rgb(228, 228, 228);
+	font-weight: 500;
+	font-size: 1.8rem;
+	line-height: 3rem;
+}
